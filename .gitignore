@@ -1,0 +1,29 @@
+# env / secrets
+.env
+.env.*
+!.env.example
+*.pem
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# node
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# misc
+.idea/
+.vscode/
+.DS_Store
+*.log
+postgres_data/
